@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1CD0802AAF423D0059C0CB /* FoodMallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD07F2AAF423D0059C0CB /* FoodMallApp.swift */; };
+		CF1CD0822AAF423D0059C0CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD0812AAF423D0059C0CB /* ContentView.swift */; };
+		CF1CD0842AAF423D0059C0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1CD0832AAF423D0059C0CB /* Assets.xcassets */; };
+		CF1CD0872AAF423D0059C0CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1CD0862AAF423D0059C0CB /* Preview Assets.xcassets */; };
+		CF1CD0912AAF423D0059C0CB /* FoodMallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD0902AAF423D0059C0CB /* FoodMallTests.swift */; };
+		CF1CD09B2AAF423D0059C0CB /* FoodMallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD09A2AAF423D0059C0CB /* FoodMallUITests.swift */; };
+		CF1CD09D2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD09C2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1CD08D2AAF423D0059C0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1CD0742AAF423D0059C0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1CD07B2AAF423D0059C0CB;
+			remoteInfo = FoodMall;
+		};
+		CF1CD0972AAF423D0059C0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1CD0742AAF423D0059C0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1CD07B2AAF423D0059C0CB;
+			remoteInfo = FoodMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1CD07C2AAF423D0059C0CB /* FoodMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1CD07F2AAF423D0059C0CB /* FoodMallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallApp.swift; sourceTree = "<group>"; };
+		CF1CD0812AAF423D0059C0CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF1CD0832AAF423D0059C0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1CD0862AAF423D0059C0CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF1CD08C2AAF423D0059C0CB /* FoodMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1CD0902AAF423D0059C0CB /* FoodMallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallTests.swift; sourceTree = "<group>"; };
+		CF1CD0962AAF423D0059C0CB /* FoodMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1CD09A2AAF423D0059C0CB /* FoodMallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallUITests.swift; sourceTree = "<group>"; };
+		CF1CD09C2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1CD0792AAF423D0059C0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CD0892AAF423D0059C0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CD0932AAF423D0059C0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1CD0732AAF423D0059C0CB = {
+			isa = PBXGroup;
+			children = (
+				CF1CD07E2AAF423D0059C0CB /* FoodMall */,
+				CF1CD08F2AAF423D0059C0CB /* FoodMallTests */,
+				CF1CD0992AAF423D0059C0CB /* FoodMallUITests */,
+				CF1CD07D2AAF423D0059C0CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1CD07D2AAF423D0059C0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CD07C2AAF423D0059C0CB /* FoodMall.app */,
+				CF1CD08C2AAF423D0059C0CB /* FoodMallTests.xctest */,
+				CF1CD0962AAF423D0059C0CB /* FoodMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1CD07E2AAF423D0059C0CB /* FoodMall */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CD07F2AAF423D0059C0CB /* FoodMallApp.swift */,
+				CF1CD0812AAF423D0059C0CB /* ContentView.swift */,
+				CF1CD0832AAF423D0059C0CB /* Assets.xcassets */,
+				CF1CD0852AAF423D0059C0CB /* Preview Content */,
+			);
+			path = FoodMall;
+			sourceTree = "<group>";
+		};
+		CF1CD0852AAF423D0059C0CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CD0862AAF423D0059C0CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF1CD08F2AAF423D0059C0CB /* FoodMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CD0902AAF423D0059C0CB /* FoodMallTests.swift */,
+			);
+			path = FoodMallTests;
+			sourceTree = "<group>";
+		};
+		CF1CD0992AAF423D0059C0CB /* FoodMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CD09A2AAF423D0059C0CB /* FoodMallUITests.swift */,
+				CF1CD09C2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift */,
+			);
+			path = FoodMallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1CD07B2AAF423D0059C0CB /* FoodMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1CD0A02AAF423D0059C0CB /* Build configuration list for PBXNativeTarget "FoodMall" */;
+			buildPhases = (
+				CF1CD0782AAF423D0059C0CB /* Sources */,
+				CF1CD0792AAF423D0059C0CB /* Frameworks */,
+				CF1CD07A2AAF423D0059C0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodMall;
+			productName = FoodMall;
+			productReference = CF1CD07C2AAF423D0059C0CB /* FoodMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF1CD08B2AAF423D0059C0CB /* FoodMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1CD0A32AAF423D0059C0CB /* Build configuration list for PBXNativeTarget "FoodMallTests" */;
+			buildPhases = (
+				CF1CD0882AAF423D0059C0CB /* Sources */,
+				CF1CD0892AAF423D0059C0CB /* Frameworks */,
+				CF1CD08A2AAF423D0059C0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1CD08E2AAF423D0059C0CB /* PBXTargetDependency */,
+			);
+			name = FoodMallTests;
+			productName = FoodMallTests;
+			productReference = CF1CD08C2AAF423D0059C0CB /* FoodMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF1CD0952AAF423D0059C0CB /* FoodMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1CD0A62AAF423D0059C0CB /* Build configuration list for PBXNativeTarget "FoodMallUITests" */;
+			buildPhases = (
+				CF1CD0922AAF423D0059C0CB /* Sources */,
+				CF1CD0932AAF423D0059C0CB /* Frameworks */,
+				CF1CD0942AAF423D0059C0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1CD0982AAF423D0059C0CB /* PBXTargetDependency */,
+			);
+			name = FoodMallUITests;
+			productName = FoodMallUITests;
+			productReference = CF1CD0962AAF423D0059C0CB /* FoodMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1CD0742AAF423D0059C0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CF1CD07B2AAF423D0059C0CB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CF1CD08B2AAF423D0059C0CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF1CD07B2AAF423D0059C0CB;
+					};
+					CF1CD0952AAF423D0059C0CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF1CD07B2AAF423D0059C0CB;
+					};
+				};
+			};
+			buildConfigurationList = CF1CD0772AAF423D0059C0CB /* Build configuration list for PBXProject "FoodMall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1CD0732AAF423D0059C0CB;
+			productRefGroup = CF1CD07D2AAF423D0059C0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1CD07B2AAF423D0059C0CB /* FoodMall */,
+				CF1CD08B2AAF423D0059C0CB /* FoodMallTests */,
+				CF1CD0952AAF423D0059C0CB /* FoodMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1CD07A2AAF423D0059C0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CD0872AAF423D0059C0CB /* Preview Assets.xcassets in Resources */,
+				CF1CD0842AAF423D0059C0CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CD08A2AAF423D0059C0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CD0942AAF423D0059C0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1CD0782AAF423D0059C0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CD0822AAF423D0059C0CB /* ContentView.swift in Sources */,
+				CF1CD0802AAF423D0059C0CB /* FoodMallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CD0882AAF423D0059C0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CD0912AAF423D0059C0CB /* FoodMallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CD0922AAF423D0059C0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CD09D2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift in Sources */,
+				CF1CD09B2AAF423D0059C0CB /* FoodMallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1CD08E2AAF423D0059C0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1CD07B2AAF423D0059C0CB /* FoodMall */;
+			targetProxy = CF1CD08D2AAF423D0059C0CB /* PBXContainerItemProxy */;
+		};
+		CF1CD0982AAF423D0059C0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1CD07B2AAF423D0059C0CB /* FoodMall */;
+			targetProxy = CF1CD0972AAF423D0059C0CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF1CD09E2AAF423D0059C0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF1CD09F2AAF423D0059C0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1CD0A12AAF423D0059C0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodMall/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acabes.FoodMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1CD0A22AAF423D0059C0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodMall/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acabes.FoodMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF1CD0A42AAF423D0059C0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acabes.FoodMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodMall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodMall";
+			};
+			name = Debug;
+		};
+		CF1CD0A52AAF423D0059C0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acabes.FoodMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodMall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodMall";
+			};
+			name = Release;
+		};
+		CF1CD0A72AAF423D0059C0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acabes.FoodMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodMall;
+			};
+			name = Debug;
+		};
+		CF1CD0A82AAF423D0059C0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acabes.FoodMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodMall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1CD0772AAF423D0059C0CB /* Build configuration list for PBXProject "FoodMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CD09E2AAF423D0059C0CB /* Debug */,
+				CF1CD09F2AAF423D0059C0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1CD0A02AAF423D0059C0CB /* Build configuration list for PBXNativeTarget "FoodMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CD0A12AAF423D0059C0CB /* Debug */,
+				CF1CD0A22AAF423D0059C0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1CD0A32AAF423D0059C0CB /* Build configuration list for PBXNativeTarget "FoodMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CD0A42AAF423D0059C0CB /* Debug */,
+				CF1CD0A52AAF423D0059C0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1CD0A62AAF423D0059C0CB /* Build configuration list for PBXNativeTarget "FoodMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CD0A72AAF423D0059C0CB /* Debug */,
+				CF1CD0A82AAF423D0059C0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1CD0742AAF423D0059C0CB /* Project object */;
+}
