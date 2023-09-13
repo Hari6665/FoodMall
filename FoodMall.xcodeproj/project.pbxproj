@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CF1CD0802AAF423D0059C0CB /* FoodMallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD07F2AAF423D0059C0CB /* FoodMallApp.swift */; };
-		CF1CD0822AAF423D0059C0CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD0812AAF423D0059C0CB /* ContentView.swift */; };
+		CF1CD0822AAF423D0059C0CB /* FoodmallTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD0812AAF423D0059C0CB /* FoodmallTabView.swift */; };
 		CF1CD0842AAF423D0059C0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1CD0832AAF423D0059C0CB /* Assets.xcassets */; };
 		CF1CD0872AAF423D0059C0CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1CD0862AAF423D0059C0CB /* Preview Assets.xcassets */; };
 		CF1CD0912AAF423D0059C0CB /* FoodMallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD0902AAF423D0059C0CB /* FoodMallTests.swift */; };
 		CF1CD09B2AAF423D0059C0CB /* FoodMallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD09A2AAF423D0059C0CB /* FoodMallUITests.swift */; };
 		CF1CD09D2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CD09C2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift */; };
+		CF500C432AB0220000836ED7 /* FoodmallListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF500C422AB0220000836ED7 /* FoodmallListView.swift */; };
+		CF500C452AB0223E00836ED7 /* FoodmallAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF500C442AB0223E00836ED7 /* FoodmallAccountView.swift */; };
+		CF500C472AB0227D00836ED7 /* FoodmallOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF500C462AB0227D00836ED7 /* FoodmallOrderView.swift */; };
+		CF500C852AB070CC00836ED7 /* FoodMallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF500C842AB070CC00836ED7 /* FoodMallModel.swift */; };
+		CF500C872AB0970700836ED7 /* FoodListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF500C862AB0970700836ED7 /* FoodListCellView.swift */; };
+		CF500C892AB0987300836ED7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF500C882AB0987300836ED7 /* NetworkManager.swift */; };
+		CF500C8B2AB09A3700836ED7 /* FOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF500C8A2AB09A3700836ED7 /* FOError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		CF1CD07C2AAF423D0059C0CB /* FoodMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1CD07F2AAF423D0059C0CB /* FoodMallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallApp.swift; sourceTree = "<group>"; };
-		CF1CD0812AAF423D0059C0CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF1CD0812AAF423D0059C0CB /* FoodmallTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmallTabView.swift; sourceTree = "<group>"; };
 		CF1CD0832AAF423D0059C0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1CD0862AAF423D0059C0CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF1CD08C2AAF423D0059C0CB /* FoodMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,13 @@
 		CF1CD0962AAF423D0059C0CB /* FoodMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1CD09A2AAF423D0059C0CB /* FoodMallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallUITests.swift; sourceTree = "<group>"; };
 		CF1CD09C2AAF423D0059C0CB /* FoodMallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF500C422AB0220000836ED7 /* FoodmallListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmallListView.swift; sourceTree = "<group>"; };
+		CF500C442AB0223E00836ED7 /* FoodmallAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmallAccountView.swift; sourceTree = "<group>"; };
+		CF500C462AB0227D00836ED7 /* FoodmallOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmallOrderView.swift; sourceTree = "<group>"; };
+		CF500C842AB070CC00836ED7 /* FoodMallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMallModel.swift; sourceTree = "<group>"; };
+		CF500C862AB0970700836ED7 /* FoodListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListCellView.swift; sourceTree = "<group>"; };
+		CF500C882AB0987300836ED7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CF500C8A2AB09A3700836ED7 /* FOError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +109,14 @@
 			isa = PBXGroup;
 			children = (
 				CF1CD07F2AAF423D0059C0CB /* FoodMallApp.swift */,
-				CF1CD0812AAF423D0059C0CB /* ContentView.swift */,
+				CF1CD0812AAF423D0059C0CB /* FoodmallTabView.swift */,
+				CF500C422AB0220000836ED7 /* FoodmallListView.swift */,
+				CF500C442AB0223E00836ED7 /* FoodmallAccountView.swift */,
+				CF500C462AB0227D00836ED7 /* FoodmallOrderView.swift */,
+				CF500C842AB070CC00836ED7 /* FoodMallModel.swift */,
+				CF500C862AB0970700836ED7 /* FoodListCellView.swift */,
+				CF500C882AB0987300836ED7 /* NetworkManager.swift */,
+				CF500C8A2AB09A3700836ED7 /* FOError.swift */,
 				CF1CD0832AAF423D0059C0CB /* Assets.xcassets */,
 				CF1CD0852AAF423D0059C0CB /* Preview Content */,
 			);
@@ -257,7 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1CD0822AAF423D0059C0CB /* ContentView.swift in Sources */,
+				CF1CD0822AAF423D0059C0CB /* FoodmallTabView.swift in Sources */,
+				CF500C852AB070CC00836ED7 /* FoodMallModel.swift in Sources */,
+				CF500C432AB0220000836ED7 /* FoodmallListView.swift in Sources */,
+				CF500C472AB0227D00836ED7 /* FoodmallOrderView.swift in Sources */,
+				CF500C892AB0987300836ED7 /* NetworkManager.swift in Sources */,
+				CF500C452AB0223E00836ED7 /* FoodmallAccountView.swift in Sources */,
+				CF500C8B2AB09A3700836ED7 /* FOError.swift in Sources */,
+				CF500C872AB0970700836ED7 /* FoodListCellView.swift in Sources */,
 				CF1CD0802AAF423D0059C0CB /* FoodMallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
